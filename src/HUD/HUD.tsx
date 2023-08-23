@@ -4,7 +4,7 @@ import './HUD.css'
 export default function HUD() {
   return (
     <>
-      <div id="hud">
+      <div id="hud" className='prevent-select'>
         <a href="https://www.linkedin.com/in/martin-perez-de-varela" target="_blank">
           <img src={logo} className="logo" alt="Logo" />
         </a>
