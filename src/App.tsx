@@ -1,17 +1,13 @@
-import reactLogo from './assets/logo.png'
-import './App.css'
+import HUD from './HUD/HUD'
+import Ribbon from './Ribbon/Ribbon'
+import Scene from './Scene/Scene'
 
 function App() {
-
   return (
     <>
-      <div>
-        <a href="https://www.linkedin.com/in/martin-perez-de-varela" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Martin Perez De Varela</h1>
-      <h2>Design & Development</h2>
+      <HUD />
+      <Ribbon />
+      <Scene />
     </>
   )
 }
